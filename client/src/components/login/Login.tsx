@@ -8,7 +8,7 @@ import Link from "@mui/material/Link";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 
-export default function Login() {
+function Login() {
     const handleSubmit = (event: any) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
@@ -83,5 +83,10 @@ export default function Login() {
                 </Box>
             </Box>
         </Container>
+        // <div>
+        //     Hello
+        // </div>
     );
 }
+
+export default Login;
